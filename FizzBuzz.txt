@@ -1,0 +1,9 @@
+for numm in range(1,101):
+    if numm%3==0 and numm%5==0:
+        print('FizzBuzz')
+    elif numm%5==0:
+        print('Buzz')
+    elif numm%3==0:
+        print('Fizz')
+    else:
+        print(numm)
